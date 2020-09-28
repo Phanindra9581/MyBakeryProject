@@ -12,5 +12,10 @@ namespace MyBakeryProject.Controllers
         {
             return View();
         }
+
+        public IActionResult NewAction()
+        {
+            return View();
+        }
     }
 }
